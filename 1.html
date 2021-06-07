@@ -3,16 +3,68 @@
 <head>
   <title>All about GT</title>
   <meta charset="utf-8">
+  <style>
+  body{
+    margin: 0;
+  }
+
+    a{
+      color:black;
+      text-decoration: none;
+    }
+
+    h1{
+      font-size:40px;
+      text-align:center;
+      background-color: skyblue;
+      border-bottom: 1px solid gray;
+      margin: 0;
+      padding: 20px;
+    }
+    ol{
+      border-right: 1px solid gray;
+      width:100px;
+      margin:0;
+      padding: 20px;
+
+    }
+    #grid{
+      display: grid;
+      grid-template-columns:150px 1fr;
+    }
+    #grid ol{
+      padding-left: 35px;
+    }
+    #article{
+      padding-left: 25px;
+
+    }
+    @media(max-width:800px){
+      #grid{
+        display: block;
+    }
+    ol{
+      border-right: none;
+    }
+    h1{
+
+      border-bottom: none;
+
+  }
+}
+  </style>
 </head>
 <body>
-  <h1><a href="index.html">그트의 모든것</a></h1>
+  <h1><a href="index.html"style="color:white">All about GT</a></h1>
+<div id="grid">
   <ol>
-    <li><a href="1.html">주인장소개</a></li>
-    <li><a href="1-1.html">라이더</a></li>
-    <li><a href="1-2.html">라이더2</a></li>
-    <li><a href="2.html">게시판</a></li>
-    <li><a href="3.html">방명록</a></li>
+    <li><a href="1.html">Introduce myself</a></li>
+    <li><a href="1-1.html">rider</a></li>
+    <li><a href="1-2.html">rider2</a></li>
+    <li><a href="2.html">board</a></li>
+    <li><a href="3.html">Guest book</a></li>
   </ol>
+  <div id="article">
   <h2>주인장 소개</h2>
   <img src="snowboard1.jpg" width="300">
   <p>오지훈 1990년 출생 스노우보드 입문은 2019년 올해 4년차 좋아하는 기술은 <strong>널리 7, <u>로데오앤디5</U></strong>다
@@ -37,6 +89,7 @@
           })();
       </script>
       <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
+    </div>
+  </div>
 </body>
 </html>
