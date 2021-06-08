@@ -35,6 +35,10 @@ body{
     clear:both;
     padding: 10px;
   }
+  p{
+    width:800px;
+    margin:0 auto;
+  }
   ol{
     text-align:center;
     border-bottom: 1px solid gray;
@@ -52,7 +56,7 @@ body{
   background:#1F42AB;
   text-align: center;
   display: inline;
-  padding:0 5%;
+  padding:10px 3%;
   border: 10px;
   }
   #grid{
