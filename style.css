@@ -62,6 +62,22 @@ body{
     padding: 20px;
     border: 1px solid #bcbcbc;
   }
+
+  .box {
+      width: 150px;
+      height: 150px;
+      border-radius: 70%;
+      overflow: hidden;
+      float: left;
+      margin:10px
+  }
+  .profile {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+  }
+
+
   @media(max-width:800px){
     #grid{
       display: block;
