@@ -39,6 +39,16 @@ body{
     clear:both;
     padding: 10px;
   }
+  h4{
+    font-size:20px;
+    text-align:center;
+    background-color: red;
+    color:white;
+    border-bottom: 1px solid gray;
+    margin: 0;
+    clear:both;
+    padding: 10px;
+  }
   p{
     width:800px;
     margin:0 auto;
@@ -91,14 +101,16 @@ body{
     padding: 20px;
     border: 1px solid #bcbcbc;
   }
-
+#white{
+  color: white;
+}
   .box {
       width: 150px;
       height: 150px;
       border-radius: 70%;
       overflow: hidden;
       float: left;
-      margin:10px
+      margin:23px
   }
   .profile {
       width: 150px;
