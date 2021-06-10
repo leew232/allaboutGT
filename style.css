@@ -98,7 +98,9 @@ body{
 
   }
   #footer{
+    margin: 0 auto;
     clear:both;
+    width:800px;
     padding: 20px;
     border: 1px solid #bcbcbc;
   }
