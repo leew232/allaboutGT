@@ -17,8 +17,9 @@ body{
     background-color: #1F42AB;
     color:white;
     border-bottom: 1px solid gray;
-    margin: 0;
+    margin: 0 auto;
     padding: 20px;
+    width:800px;
   }
   h2{
     font-size:30px;
@@ -55,10 +56,10 @@ body{
   }
   ol{
     text-align:center;
-    border-bottom: 1px solid gray;
     color:white;
-    margin:0;
+    margin:0 auto;
     padding: 20px;
+    width:800px;
 
   }
   ul {
